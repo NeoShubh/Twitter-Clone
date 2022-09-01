@@ -1,0 +1,26 @@
+body{
+  background-image: url('https://raw.githubusercontent.com/Qwer278/twitter-clone-full/main/public/images/twitter-original-bg.png');
+}
+
+.logincontainer {
+  margin: 6rem auto;
+  background-image: linear-gradient(to bottom, #c1eaf2, #b8d6db, #afc3c5, #a6b0b1, #9c9d9d);
+  padding: 16px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.logincontainer button {
+  background-color: #0099ff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background-color: #f2f2f2;
+  border: 1px solid #dedede;
+}
+
+@media screen and (max-width: 570px) {
+  .logincontainer {
+    width: 85%;
+  }
+}
